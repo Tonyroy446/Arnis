@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.a{
+    text-decoration: none;
+}
+a:visited{
+    color: darkred;
+}
+.container{
+    background-color: black;
+    height: 140px;
+}
+.navbar-logo{
+    height: 140px;
+    width: 180px;
+}
+.navbar-nav{
+float: right;
+}
+.navbar-item a:hover{
+color: gold;
+}
+.navbar-item{
+color: gold;
+float: left;
+padding: 20px;
+list-style: none;
+font-style: inherit;
+font-size: 30px;
+font-weight: bold;
+}
+.hero-img{
+    height: 100%;
+    width: 100%;
+}
+section{
+    padding: 0px;
+    margin: 0px;
+}
