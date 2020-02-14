@@ -10,7 +10,8 @@ a:visited{
     color: darkred;
 }
 .container{
-    background-color: black;
+    background-color: #000033;
+    opacity: 0.9;
     height: 140px;
 }
 .navbar-logo{
@@ -18,19 +19,19 @@ a:visited{
     width: 180px;
 }
 .navbar-nav{
-float: right;
+    float: right;
 }
 .navbar-item a:hover{
-color: gold;
+    color: gold;
 }
 .navbar-item{
-color: gold;
-float: left;
-padding: 20px;
-list-style: none;
-font-style: inherit;
-font-size: 30px;
-font-weight: bold;
+    color: gold;
+    float: left;
+    padding: 25px;
+    list-style: none;
+    font-style: inherit;
+    font-size: 25px;
+    font-weight: lighter;
 }
 .hero-img{
     height: 100%;
@@ -39,4 +40,18 @@ font-weight: bold;
 section{
     padding: 0px;
     margin: 0px;
+}
+
+.footer{
+    background-color: #000033;
+    opacity: 0.9;
+    height: 100px;
+    width: 100%;
+}
+.footer-item{
+    float: left;
+    margin-top: 50px;
+    margin-left: 300px;
+    color: gold;
+    font-weight: bolder
 }
